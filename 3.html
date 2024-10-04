@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página HTML com Imagem de Fundo</title>
+    <style>
+        body {
+            background-image: url(https://wallpapers.com/images/hd/best-dark-hacker-u9zjdrtpiq4ak7x0.jpg); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+            background-size: cover; /* A imagem será ajustada sem ser cortada */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Impede a repetição da imagem */
+            background-attachment: fixed; /* Faz a imagem de fundo "ficar fixa" ao rolar a página */
+            color: green;
+            font-family: Arial, sans-serif;
+            /* Definir o cursor do mouse como uma imagem de bolo */
+            cursor: url(https://cdn.discordapp.com/attachments/1213196607936528485/1291734294653440130/1fed29d3-5820-4cb5-ae03-fe0baf662734.png?ex=67012ccf&is=66ffdb4f&hm=61caa730ae2404249e995132932aec54248f921eead3472d5708a89d1e869659&), auto;
+        }
+
+        h1, h2, h3 {
+            color: red;
+        }
+
+        a {
+            color: green;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        footer {
+            margin-top: 20px;
+            color: green;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+             
+        /* CSS para o bolo no canto inferior direito */
+        .cake {
+            position: fixed;
+            bottom: 10px; /* Distância do fundo */
+            right: 10px; /* Distância da direita */
+            font-size: 40px; /* Tamanho do emoji */
+        }
+        
+        h2 {
+            margin-right: 47%; /* Ajusta o distanciamento da esquerda (nem muito no canto) */
+            color: red;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KRASNAYA ESEC: Explorando o Mundo da Internet</h1>
+        <style>
+            h1 {
+                text-align: center; /* Centraliza o texto */
+            }
+            
+        </style>
+    </header>
+
+
+    <section id="about">
+        <h2>Sobre nossa ferramenta mortífera: NHAC</h2>
+        <p>A KRASNAYA ESEC tem como missão ajudar os estudantes a compreender melhor o fascinante universo da Internet.
+
+            Por meio de jogos educativos, a KRASNAYA ESEC oferece atualizações que explicam de maneira simples e acessível os conceitos de ataques e defesas presentes na área de Defesa Cibernética.
+            
+            Nosso objetivo é inspirar e introduzir os jovens ao mundo da tecnologia, ajudando cada estudante a encontrar seu caminho e potencial na área.</p>
+        <h2>Funcionalidades</h2>
+        <p>HTTP Flood: Realiza múltiplas requisições HTTP GET ao alvo em um curto intervalo de tempo, sobrecarregando o servidor.</p>
+        <p>WebSocket Flood: (em desenvolvimento) Implementa uma técnica similar ao HTTP Flood, mas focada em sobrecarregar servidores que utilizam WebSockets.</p>
+        <p>Slow POST: (em desenvolvimento) Simula a técnica Slow POST, onde dados são enviados lentamente ao servidor, utilizando seus recursos ao máximo até que a conexão seja terminada.</p>
+        
+        <style>
+            h2 {
+            text-align: center; /* Centraliza o texto */
+        }
+        </style>
+        
+
+    </section>
+
+    <section>
+    <header>
+        <h3>Instalação</h3>
+        <p>Clone o repositório e instale as dependências:</p>
+        <p><code>git clone https://github.com/SaDzz74/STRIGA.git</code></p>
+        <p><code>cd STRIGA</code></p1>
+        <p><code>pip install -r requirements.txt</code></p>
+        <h3>Como Usar</h3>
+        <p>python striga.py --target (URL) --method (método) --duration (duração_em_segundos)</dura></p>
+        <h3>Exemplo de Uso</h3>
+        <p>python striga.py --target http://192.168.0.13:3000 --method "HTTP Flood" --duration 100</p>
+        <h3>Objetivo</h3>
+        <p>Mais da metade dos estudantes do 3º ano do ensino médio, cerca de 54%, ainda está em dúvida sobre qual caminho seguir. Isso se agrava pela falta de orientação vocacional, presente em apenas 10% das escolas. É nesse cenário que um projeto inovador de jogos voltados à segurança da informação se destaca!
+            Esses jogos não apenas despertam a curiosidade e o interesse pela tecnologia, mas também desenvolvem habilidades essenciais, como resolução de problemas e pensamento analítico. Ao tornar o aprendizado divertido e interativo, estamos não só formando futuros profissionais, mas também cidadãos mais conscientes. Vamos juntos transformar o futuro da educação e da segurança cibernética!</p>
+        <style>
+            h3 {
+                margin-left: 1%;
+            }
+        </style>
+       
+     
+    </header>
+    </section>
+
+    <section id="contact">
+        <h3>Contato</h3>
+        <p><a href="https://github.com/goryblake" target="_blank" onclick="window.open('https://github.com/goryblake'); return false;">GitHub - goryblake</a></p>
+        <p><a href="https://github.com/SaDzz74" target="_blank" onclick="window.open('https://github.com/SaDzz74'); return false;">Github - SaDzz74</a></p>
+    </section>
+
+    <section id="participants">
+        <h3>Participantes</h3>
+            <p>&#9829; Leonardo Pimentel Soriano &#9829;</li>
+            <p>&#9824; Melissa Ramos Tavernari &#9824;</li>
+            <p>&#9830; João Batista Jucá S.C. &#9830;</p>
+            <p>&#9827; Pedro Henrique Lima Vieira &#9827;</p>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Krasnaya. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Emoji de Bolo no canto inferior direito -->
+    <div class="cake">🍰</div>
+</body>
+</html>
